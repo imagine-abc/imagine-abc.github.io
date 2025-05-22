@@ -1,0 +1,96 @@
+
+  <title>삼각김밥 애니메이션 포트폴리오</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #fff9f3;
+      color: #333;
+    }
+
+    header {
+      background: url('images/header-bg.jpg') center/cover no-repeat;
+      color: rgb(151, 123, 74);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card p {
+      padding: 15px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>삼각김밥의 하루</h1>
+    <p>삼각김밥 프렌차이즈에서 아르바이트한 경험을 바탕으로 제조과정을 새롭게 표현한 애니메이션 입니다.</p>
+  </header>
+
+  <section id="character">
+    <h2>삼각김밥 캐릭터</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/character-concept.jpg" alt="삼각김밥 캐릭터 콘셉트 이미지" />
+        <p>같은 외형을 지닌 삼각김밥 캐릭터들이, 도장에 찍히고 속 재료가 채워져 완성되는 과정을 그립니다.</p>
+      </div>
+      <div class="card">
+        <img src="images/character-pose.jpg" alt="삼각김밥 포즈 이미지" />
+        <p>제작 과정에서 다양한 시도와 조정을 거쳐 캐릭터의 감정 표현을 강화했습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="main-animation">
+    <h2>대표 애니메이션</h2>
+    <video src="DA_test01_2.mp4" controls autoplay muted loop></video>
+    <p>편의점 냉장고에서 세상 밖을 꿈꾸는 삼각김밥의 이야기를 담은 애니메이션입니다.</p>
+  </section>
+
+  <section id="process-animation">
+    <h2>제작 과정 애니메이션</h2>
+    <p>같은 삼각김밥 캐릭터가 어떻게 표정, 동작, 타이밍 등을 발전시켜 나갔는지 보여주는 과정 중심의 애니메이션입니다.</p>
+  </section>
+
+</body>
+</html>
