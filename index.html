@@ -4,17 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>포트폴리오</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+ </head>
 <body>
 
   <!-- 카테고리 메뉴 -->
   <nav class="navbar">
     <ul>
-      <li><a href="index.html">홈</a></li>
-      <li><a href="character.html">캐릭터</a></li>
-      <li><a href="animation.html">애니메이션</a></li>
-      <li><a href="process.html">제작 과정</a></li>
+      <li><a href="character.html">Home</a></li>
+      <li><a href="index.html">Advertisement</a></li>
+      <li><a href="animation.html">Character</a></li>
+      <li><a href="tyo.html">TypeFace</a></li>
     </ul>
   </nav>  
 
@@ -24,7 +25,16 @@
   </header>
 
   <section id="character">
-    <h2>character</h2>
+    <h2>Main Animation</h2>
+      <div class="line-wrapper top">
+    <div class="moving-line"></div>
+  </div>
+
+  <div class="video-wrapper">
+    <video src="kangdajim.mp4" controls autoplay muted loop></video>
+    <p>삼각김밥을 아르바이트를 통해 직접 만들고 판매해보며,<br>브랜드의 디자인에 대해 고민해보고 조사하면서<br>브랜드에 알맞는 애니메이션으로 만들게 되었다.</p>
+  </div>
+  <h2>character</h2>
     <div class="card-container">
       <div class="card">
         <img src="samgim box2.jpg" alt="삼각김밥 캐릭터 콘셉트" />
@@ -43,15 +53,11 @@
       </div>
     </div>
   </section>
-
-  <section id="main-animation">
-    <h2>main animation</h2>
-    <div class="video-wrapper">
-      <video src="kangdajim.mp4" controls autoplay muted loop></video>
+    <!-- 라인 애니메이션 위치 -->
+    <div class="line-wrapper">
+      <div class="moving-line"></div>
     </div>
-    <p style="text-align: center;">삼각김밥을 직접 만들고 판매해보며,<br>제조과정부터 완성까지의 반복을 애니메이션으로 표현했습니다.</p>
   </section>
 
 </body>
 </html>
-
